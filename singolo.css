@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    margin: 0 auto;
+    width: 1020px;
+    height: 89px;
+    justify-content: space-between;
+    background-color: rgb(45, 48, 58);
+    border-bottom: 6px solid rgb(50, 55, 70);
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 34px 0 35px 40px;
+    text-transform: uppercase;
+    letter-spacing: -0.475px;
+    color: white;
+}
+
+.logo::after {
+    content: "*";
+    color: rgb(240, 108, 100);
+}
+
+.navbar {
+    display: flex;
+    margin-top: 45px;
+    margin-right: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 9px;
+    color: white;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.navpoint {
+    position: relative;
+}
+
+.navpoint:first-child {
+    color: rgb(240, 108, 100);
+}
+
+.navpoint:nth-child(2) {
+    margin-left: 30px;
+    letter-spacing: -0.168px;
+}
+
+.navpoint:nth-child(5) {
+    letter-spacing: -0.19px;
+}
+
+.navpoint + .navpoint {
+    margin-left: 29px;
+}
+
+.navpoint + .navpoint::before {
+    position: absolute;
+    bottom: 3px;
+    left: -16px;
+    color: rgb(73, 78, 98);
+    content: ".";
+}
+
+

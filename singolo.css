@@ -64,6 +64,58 @@
     content: ".";
 }
 
+.slider {
+    position: relative;
+    display: flex;
+    height: 600px;
+    background-color: rgb(240, 108, 100);
+  }
+  
+  .arrow_left {
+    margin-top: 281px;
+    margin-left: 42px;
+  }
+  
+  .arrow_right {
+    margin-top: 281px;
+    margin-left: 906px;
+  }
+  
+  .phone {
+    position: absolute;
+  }
+  
+  .vertical-phone {
+    margin-top: 53px;
+    margin-left: 112px;
+  }
+  
+  .horizontal-phone {
+    margin-top: 59px;
+    margin-left: 425px;
+  }
+
+  .phone_shadow {
+    position: absolute;
+    opacity: 0.14;
+  }
+
+  .phone_layer {
+    position: absolute;
+    top: 63px;
+    left: 12px;
+    border: 3px solid rgb(198, 198, 198);
+    border-radius: 2px;
+  }
+  
+  .phone_base {
+    position: absolute;
+  }
+  
+  h4 {
+    color: red;
+  }
+
 @font-face {
     font-family: "Lato";
     font-style: normal;
@@ -103,3 +155,5 @@
   body {
     font-family: "Lato", sans-serif;
   }
+
+

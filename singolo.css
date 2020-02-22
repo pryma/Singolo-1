@@ -5,6 +5,7 @@ body {
 
 html {
   line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 
 main {
@@ -60,17 +61,20 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
+.wrapper {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
 .header {
     min-width: 1020px;
     background-color: rgb(45, 48, 58);
     border-bottom: 6px solid rgb(50, 55, 70);
 }
 
-.header-wrapper {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
-  width: 1020px;
-  margin: 0 auto;
 }
 
 .logo {
@@ -137,13 +141,11 @@ button:-moz-focusring,
   background-color: rgb(240, 108, 100);
 }
 
-.slider-wrapper {
+.slider__wrapper {
   position: relative;
   display: flex;
   align-items: center;
-  width: 1020px;
   padding: 53px 0;
-  margin: 0 auto;
 } 
 
   .arrow-left {
@@ -156,13 +158,16 @@ button:-moz-focusring,
     margin-left: 55px;
   }
   
-  .arrow-left,.arrow-right {
+  .arrow-left,
+  .arrow-right {
     width: 16px;
     height: 27px;
     margin-bottom: 11px;
     cursor: pointer;
     border: none;
+    transition: filter 0.3s;
 }
+
 
   .vertical-phone {
     margin-bottom: 11px;
@@ -179,6 +184,10 @@ button:-moz-focusring,
   .services {
     background-color: rgb(242, 242, 242);
     border-bottom: 6px solid rgb(255, 255, 255);
+  }
+
+  .services__wrapper {
+    padding: 69px 0 30px 0;
   }
 
   .services-head {
@@ -199,11 +208,6 @@ button:-moz-focusring,
     text-align: justify;
   }
 
-  .service-wrapper {
-    width: 1020px;
-    padding: 69px 0 30px 0;
-    margin: 0 auto;
-  }
 
   .services-list {
     display: flex;

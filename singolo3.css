@@ -1,0 +1,120 @@
+section {
+    padding: 52px 0 148px 0;
+    font-weight: 400;
+    background-color: rgb(240, 108, 100);
+    color: rgb(240, 216, 217);
+}
+
+.header-section {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1;
+    color: rgb(240, 216, 217);
+}
+
+.header-text {
+    margin-bottom: 44px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.slider-controls-header {
+    margin-bottom: 10px;
+    line-height: 1;
+    color: rgb(240, 216, 217);
+    font-size: 18px;
+}
+
+.slider-controls-text {
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 1.9;
+    color: rgb(240, 216, 217);
+    margin-bottom: 23px;
+}
+
+.input, .textarea {
+    display: block;
+    margin-bottom: 15px;
+    padding: 8px 13px;
+    font-size: 12px;
+    line-height: 22px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(214, 86, 79);
+    width: 100%;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    color: rgb(244, 140, 143);
+}
+
+.slider-form .contact-email {
+    margin: 17px;
+}
+
+.slider-form textarea {
+    height: 203px;
+}
+
+.slider-controls {
+    display: flex;
+}
+
+.slider-controls-content {
+    width: 100%;
+    min-width: 619px;
+    flex-shrink: 0;
+}
+
+.slider-controls-info {
+    padding-left: 20px;
+}
+
+.slider-form {
+    display: block;
+}
+
+.contacts {
+    margin-top: 21px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contakts-link {
+    display: block;
+    position: relative;
+    margin-bottom: 7px;
+    padding-left: 24px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.contacts-link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts-link-address::before {
+    background-image: url("./assets/images/location.png");
+}
+.contacts-link-email::before {
+    background-image: url("./assets/images/mail.png");
+}
+.contacts-link-phone::before {
+    background-image: url("./assets/images/call.png");
+}
+
+
+

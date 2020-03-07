@@ -45,10 +45,28 @@ body, html {
 }
 
 .header--text {
-    margin-bottom: 44px;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: justify;
+
 }
+
+
+.slider-controls-content {
+    display: grid;
+    grid-template-columns: 66% 34%;
+    column-gap: 20px;
+}
+
+.slider-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 
 .slider--controls--header {
     margin-bottom: 10px;
@@ -65,27 +83,29 @@ body, html {
     margin-bottom: 23px;
 }
 
-.input,.textarea {
-    display: block;
-    margin-bottom: 15px;
-    padding: 8px 13px;
-    font-size: 12px;
-    line-height: 22px;
-    border: 0;
-    color: white;
+input, textarea {
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    height: 38px;
     border-radius: 5px;
     background-color: rgb(214, 86, 79);
-    width: 100%;
+    border: none;
 }
+
+
 
 .input::placeholder,
 .textarea::placeholder {
+    line-height: 22px;
+    font-size: 12px;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
     color: rgb(244, 140, 143);
 }
 
-.slider-form .contact-email {
-    margin: 17px;
-}
+
 
 .slider-form textarea {
     height: 203px;
@@ -95,19 +115,11 @@ body, html {
     display: flex;
 }
 
-.slider-controls-content {
-    width: 100%;
-    min-width: 619px;
-    flex-shrink: 0;
-}
 
 .slider-controls-info {
     padding-left: 20px;
 }
 
-.slider-form {
-    display: block;
-}
 
 .contacts {
     margin-top: 21px;

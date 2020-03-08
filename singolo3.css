@@ -12,7 +12,7 @@ body, html {
 .feedback {
     position: relative;
     width: 100%;
-    height: 648px;
+    height: 616px;
     font-weight: 400;
     background-color: rgb(240, 108, 100);
     color: rgb(240, 216, 217);
@@ -32,7 +32,7 @@ body, html {
 }
 
 .header--section {
-    margin-bottom: 0;
+    margin-bottom: 0px;
     font-size: 30px;
     font-weight: 900;
     color: rgb(240, 216, 217);
@@ -53,6 +53,7 @@ body, html {
     display: grid;
     grid-template-columns: 66% 34%;
     column-gap: 20px;
+    margin-top: 45px;
 }
 
 .slider-form {
@@ -71,8 +72,7 @@ input, textarea {
     color: white;
 }
 
-.input::placeholder,
-.textarea::placeholder {
+.input::placeholder {
     line-height: 22px;
     font-size: 12px;
     font-family: "Lato";
@@ -80,6 +80,17 @@ input, textarea {
     text-align: left;
     padding-left: 15px;
     color: rgb(244, 140, 143);
+}
+
+.textarea::placeholder {
+  line-height: 22px;
+  font-size: 12px;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  padding-left: 13px;
+  padding-top: 5px;
+  color: rgb(244, 140, 143);
 }
 
 .slider-form textarea {
@@ -174,7 +185,7 @@ input, textarea {
     display: inline-block;
     padding: 0;
     margin: 0;
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
 .social-acc {

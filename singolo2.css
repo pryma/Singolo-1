@@ -23,23 +23,22 @@ body {
     color: rgb(102, 109, 137);
     font-family: "Lato";
     font-weight: 900;
-    letter-spacing: 0.6px;
+    letter-spacing: -0.3px;
 }
 
 .portfolio > .container > .portfolio-text {
-    padding-top: 28px;
+    padding-top: 26px;
     padding-left: 40px;
     font-size: 18px;
     line-height: 30px;
     color: rgb(118, 126, 158);
     font-family: "Lato";
     font-weight: 300;
-    letter-spacing: -0.2px;
 }
 
 .portfolio > .container > .button-array {
-    padding-top: 9px;
-    padding-left: 40px;
+    padding-top: 10px;
+    padding-left: 41px;
 }
 
 .portfolio > .container > .button-array > button {
@@ -51,9 +50,12 @@ body {
     font-family: "Lato";
     font-weight: 400;
     color: rgb(118, 126, 158);
-    margin-right: 10px;
-    letter-spacing: -0.3px;
+    margin-right: 7px;
     outline: none;
+}
+
+.portfolio > .container > .button-array > .button-Artwork {
+    margin-left: -1.4px;
 }
 
 .portfolio > .container > .button-array > button:hover {
@@ -63,6 +65,7 @@ body {
 
 .portfolio > .container > .gallery {
     padding-top: 19px;
+    padding-bottom: 10px;
     display: grid;
     grid-template:  repeat(3, 187px)/repeat(4, 220px);
     grid-gap: 20px 20px;
@@ -91,7 +94,7 @@ body {
     color: rgb(102, 109, 137);
     font-family: "Lato";
     font-weight: 900;
-    letter-spacing: 0.6px;
+    letter-spacing: -0.15px;
 }
 
 .about-us > .container > .about-us-text {
@@ -102,15 +105,22 @@ body {
     color: rgb(118, 126, 158);
     font-family: "Lato";
     font-weight: 300;
-    letter-spacing: -0.1px;
+    letter-spacing: 0.15px;
+}
+
+.about-us > .container > .about-us-text > p {
+    line-height: 0px;
+    margin-top: 15px;
+    letter-spacing: 0px;
 }
 
 .about-us > .container > .about-us-we {
-    padding-top: 45px;
+    padding-top: 41px;
+    padding-left: 39px;
     display: grid;
     grid-template-columns: repeat(3, 300px);
     grid-gap: 20px 20px;
-    justify-content: center;
+    justify-content: left;
 }
 
 .about-us > .container > .about-us-we > .about-us-we1 > .about-us-we-name {
@@ -120,7 +130,7 @@ body {
     font-family: "Lato";
     font-weight: 900;
     color: rgb(102, 109, 137);
-    letter-spacing: 0.2px;
+    letter-spacing: -0.2px;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -133,8 +143,15 @@ body {
     font-weight: 400;
     text-align: left;
     color: rgb(102, 109, 137);
-    letter-spacing: -0.08px;
+    letter-spacing: -0.29px;
+    word-spacing: 1.8px;
 }
+
+.about-us > .container > .about-us-we > .about-us-we1 > .about-us-we-text-2 {
+    letter-spacing: 0.11px;
+    word-spacing: 0px;
+}
+
 
 .about-us > .container > .about-us-we > .about-us-we1 > a > .about-us-we-web {
     padding-top: 21px;
@@ -145,4 +162,89 @@ body {
     opacity: 0.7;
     cursor: pointer;
     filter: drop-shadow(2px 2px 1px rgb(50, 55, 70));
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 300;
+  font-style: normal;
+  src: url("./assets/fonts/lato-v16-latin-300.eot"); /* IE9 Compat Modes */
+  src: local("Lato Light"), local("Lato-Light"),
+    url("./assets/fonts/lato-v16-latin-300.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/lato-v16-latin-300.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./assets/fonts/lato-v16-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("./assets/fonts/lato-v16-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./assets/fonts/lato-v16-latin-300.svg#Lato")
+      format("svg"); /* Legacy iOS */
+}
+/* lato-regular - latin */
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./assets/fonts/lato-v16-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url("./assets/fonts/lato-v16-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("./assets/fonts/lato-v16-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./assets/fonts/lato-v16-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("./assets/fonts/lato-v16-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./assets/fonts/lato-v16-latin-regular.svg#Lato")
+      format("svg"); /* Legacy iOS */
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  font-style: normal;
+  src: url("./assets/fonts/lato-v16-latin-700.eot"); /* IE9 Compat Modes */
+  src: local("Lato Bold"), local("Lato-Bold"),
+    url("./assets/fonts/lato-v16-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/lato-v16-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./assets/fonts/lato-v16-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("./assets/fonts/lato-v16-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./assets/fonts/lato-v16-latin-700.svg#Lato")
+      format("svg"); /* Legacy iOS */
+}
+/* lato-900 - latin */
+@font-face {
+  font-family: "Lato";
+  font-weight: 900;
+  font-style: normal;
+  src: url("./assets/fonts/lato-v16-latin-900.eot"); /* IE9 Compat Modes */
+  src: local("Lato Black"), local("Lato-Black"),
+    url("./assets/fonts/lato-v16-latin-900.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/fonts/lato-v16-latin-900.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./assets/fonts/lato-v16-latin-900.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("./assets/fonts/lato-v16-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./assets/fonts/lato-v16-latin-900.svg#Lato")
+      format("svg"); /* Legacy iOS */
 }
